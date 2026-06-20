@@ -13,6 +13,13 @@ standings = [
     {"name": "Norris", "points": 374},
     {"name": "Leclerc", "points": 356},
 ]
+top=0
+best=""
+for s in standings:
+    if s["points"] > top:
+        top = s["points"]
+        best = s["name"]
+# print(best)
 
 for index, a  in enumerate(standings, start=1):
     print(f"{index}. {a["name"]} - {a["points"]} очков")

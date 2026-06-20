@@ -2,10 +2,7 @@ def square(x):
     return x**2
 
 def is_even(n):
-    if n%2==0:
-        return True
-    else:
-        return False
+    return n%2==0
 
 def format_lap_time(seconds):
     minutes = int(seconds//60)

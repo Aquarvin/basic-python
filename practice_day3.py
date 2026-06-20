@@ -7,7 +7,7 @@ class Car:
         return self.brand
 
     def describe(self):
-        return f"{self.brand} может разогнатсья до {self.max_speed} км/ч."
+        return f"{self.brand} может разогнаться до {self.max_speed} км/ч."
     
 
 Opel = Car("Opel", "7")
